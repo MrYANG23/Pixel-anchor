@@ -1,0 +1,11 @@
+anchor部分
+作为pixel-anchor部分论文复现中的anchor部分，从整体中拆分出来，提升各部分的效果，来推动整体复现的效果。
+evaluate 文件夹是验证代码文件夹，其中需包含需要验证数据的验证集的官方标签。
+focal_flat_loss_log_file 是训练loss记录的文档
+log_file 也是训练loss记录的文档，区别在于，采用不同的先验anchor大小
+loss.py 是anchor部分的loss，以及pixel部分的loss
+model.py 包含了整体部分的网络，注释掉了整体网络中的anchor网络，以及修改网络部分的输入输出来实现anchor单独部分的实验
+mydatasets.py 整体部分datasets的编写，写有注释
+train.py 训练代码
+eval.py 在数据集上测指标
+pixel_anchor_detect.py 为anchor部分的单图推理代码
