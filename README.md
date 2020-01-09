@@ -1,2 +1,2 @@
 # Pixel-anchor
-try to Reproduce Pixel-anchor
+try to Reproduce Pixel-anchor，这是个不完整的工程，效果不好，主要问题是在anchor部分，anchor部分在训练后只有40%左右（怀疑细节问题，以及对APL模块理解问题）欢迎小伙伴们讨论，交流，pixel部分单独训练，测过指标后有原文整体部分70%（有提升空间），由于实习地方，给了新任务，不能再继续尝试下去了，有问题的小伙伴可以加微信，共同学习，交流wetchat(18408285273)
